@@ -191,8 +191,8 @@ const pgData = [
   {
     pgNum: 14,
     title: `Be my lucky one`,
-    date: writeDate(2026, 54, 14),
-    altText: "Here's even more alt text!",
+    date: writeDate(2026, 5, 14),
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
