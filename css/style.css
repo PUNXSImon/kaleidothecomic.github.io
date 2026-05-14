@@ -48,7 +48,7 @@ footer,
 #authorNotes,
 .archiveTable {
   font-family: "Amatic SC", sans-serif;
-  font-size: large;
+  font-size: 23px;
 }
 
 /* STYLING FOR SUBPAGES (about, characters, etc) */
@@ -63,6 +63,7 @@ footer,
   margin: auto;
   margin-bottom: 10px;
   padding: 0px 12px 12px;
+  font-size: 18px;
 }
 
 .subPage:not(.archivePage) {
