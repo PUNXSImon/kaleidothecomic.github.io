@@ -56,7 +56,7 @@ footer,
 /*general*/
 
 .subPage {
-  width: 1000px;
+  width: 900px;
   max-width: 98%;
   background-color: #ffffff;
   border-radius: 15px;
@@ -106,7 +106,8 @@ header #nav {
   border-radius: 25px;
   font-size: 30px;
   height: 50px;
-  width: 70%;
+  width: 900px;
+  max-width: 98%;
   margin: auto;
   word-wrap: break-word;
 }
