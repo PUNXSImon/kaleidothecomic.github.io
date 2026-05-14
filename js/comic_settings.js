@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 7; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files.
+const maxpg = 14; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files.
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -50,62 +50,65 @@ if (pg == 0) {
 
 const pgData = [
   {
-    pgNum: 1, //what page number it is
-    title: "Seraphim in love", //the title of the page (leaving this blank will default it to "Page X")
-    date: writeDate(2026, 5, 14), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
-    altText: "Here's some alt text!", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
-    imageFiles: 1, //how many image files this page is split into
-    authorNotes: `
-            <p>First page, but not exactly!</p>
-            <p>I will upload the short prologue later.</p>
-            `,
-  },
- {
-    pgNum: 2,
-    title: "Thinking through",
+    pgNum: 1,
+    title: `A flicker`,
     date: writeDate(2026, 5, 14),
-    altText: "Here's some more alt text!",
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
+            `,
+  },
+
+  {
+    pgNum: 2,
+    title: `Reaching out`,
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
             <p></p>
             `,
   },
+
   {
     pgNum: 3,
-    title: "Kaleido song",
+    title: `Beautiful thing`,
     date: writeDate(2026, 5, 14),
-    altText: "Here's even more alt text!",
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
             `,
   },
+
   {
     pgNum: 4,
-    title: "First love",
+    title: `To create`,
     date: writeDate(2026, 5, 14),
-    altText: "So much alt text...",
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
             `,
   },
-  {
+
+    {
     pgNum: 5,
-    title: "Lucky one",
+    title: `I didn't know`,
     date: writeDate(2026, 5, 14),
-    altText: "Here's even more alt text!",
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
             `,
   },
+
   {
     pgNum: 6,
-    title: `Four leaf clover`,
+    title: `A whole new world`,
     date: writeDate(2026, 5, 14),
-    altText: "Here's even more alt text!",
+    altText: "",
     imageFiles: 1,
     authorNotes: `
             <p></p>
@@ -114,6 +117,79 @@ const pgData = [
 
   {
     pgNum: 7,
+    title: `Kaleido`,
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            `,
+  },
+
+  {
+    pgNum: 8, //what page number it is
+    title: "Seraphim in love", //the title of the page (leaving this blank will default it to "Page X")
+    date: writeDate(2026, 5, 14), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
+    altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
+    imageFiles: 1, //how many image files this page is split into
+    authorNotes: `
+            <p></p>
+            `,
+  },
+ {
+    pgNum: 9,
+    title: "Thinking through",
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            <p></p>
+            `,
+  },
+  {
+    pgNum: 10,
+    title: "Kaleido song",
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            `,
+  },
+  {
+    pgNum: 11,
+    title: "First love",
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            `,
+  },
+  {
+    pgNum: 12,
+    title: "Lucky one",
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            `,
+  },
+  {
+    pgNum: 13,
+    title: `Four leaf clover`,
+    date: writeDate(2026, 5, 14),
+    altText: "",
+    imageFiles: 1,
+    authorNotes: `
+            <p></p>
+            `,
+  },
+
+  {
+    pgNum: 14,
     title: `Be my lucky one`,
     date: writeDate(2026, 54, 14),
     altText: "Here's even more alt text!",
