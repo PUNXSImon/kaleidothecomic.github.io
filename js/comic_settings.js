@@ -52,7 +52,7 @@ const pgData = [
   {
     pgNum: 1, //what page number it is
     title: "Seraphim in love", //the title of the page (leaving this blank will default it to "Page X")
-    date: writeDate(2026, 4, 14), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
+    date: writeDate(2026, 5, 14), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
     altText: "Here's some alt text!", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
     imageFiles: 1, //how many image files this page is split into
     authorNotes: `
@@ -63,7 +63,7 @@ const pgData = [
   {
     pgNum: 2,
     title: "Thinking through",
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 5, 14),
     altText: "Here's some more alt text!",
     imageFiles: 1,
     authorNotes: `
@@ -74,7 +74,7 @@ const pgData = [
   {
     pgNum: 3,
     title: "Kaleido song",
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 5, 14),
     altText: "Here's even more alt text!",
     imageFiles: 1,
     authorNotes: `
@@ -84,7 +84,7 @@ const pgData = [
   {
     pgNum: 4,
     title: "First love",
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 5, 14),
     altText: "So much alt text...",
     imageFiles: 1,
     authorNotes: `
@@ -94,7 +94,7 @@ const pgData = [
   {
     pgNum: 5,
     title: "Lucky one",
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 5, 14),
     altText: "Here's even more alt text!",
     imageFiles: 1,
     authorNotes: `
@@ -104,7 +104,7 @@ const pgData = [
   {
     pgNum: 6,
     title: `Four leaf clover`,
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 5, 14),
     altText: "Here's even more alt text!",
     imageFiles: 1,
     authorNotes: `
@@ -115,7 +115,7 @@ const pgData = [
   {
     pgNum: 7,
     title: `Be my lucky one`,
-    date: writeDate(2026, 4, 14),
+    date: writeDate(2026, 54, 14),
     altText: "Here's even more alt text!",
     imageFiles: 1,
     authorNotes: `
